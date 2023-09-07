@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+
+
+.responsive{
+    width: 50%;
+    height: 95%;
+    max-width: 500px;
+    float: right;
+    margin-right: 0px 0px 0px;
+}
+
+.header {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    padding: 20px 10%;
+    background: #fdb927;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+  
+  .logo {
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .Navbar a {
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+  }
+  
+  .Navbar a:hover,
+  .Navbar a.active {
+    color: aqua;
+  }
+
+html,
+body {
+  background-image: url("LA.jpg");
+  height: 100%;
+  font-family: "Helvetica Neue LT W01_41488878";
+  font-size: 16px;
+  line-height: 26px;
+}
