@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
-    <link rel="stylesheet" href="Kobe.css" />
+    <link rel="stylesheet" href="form.css" />
 </head>
 <body>
     <header class="header">
@@ -17,5 +17,38 @@
             <a href="contact.html" class="active">Contact</a>
         </nav>
     </header>
+    <!-- container that holds the form -->
+    <div class="container">
+        <!-- header of the container -->
+        <h1>LETS GET IN TOUCH</h1>
+        <p>Have any toughts on my web? leave me a comment!</p>
+        <!-- the form -->
+        <form>
+            <!-- first row of the form -->
+            <div class="row">
+                <!-- "Name" column-->
+                <div class="column">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" placeholder="Your name!">
+                </div>
+                <!-- "Email" column -->
+                <div class="column">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Your email address!">
+                </div>
+            </div>
+            <!-- Second row of the form -->
+            <div class="row">
+                <!-- Comment column -->
+                <div class="column">
+                    <label for="comment">Comment:</label>
+                    <textarea id="comment" placeholder="Leave your comment here!" rows="3"></textarea>
+                </div>
+            </div>
+            <!-- Submit button -->
+            <button type="button" onclick="alert('Thank you for your submission!')">Submit</button>
+        </form>
+
+    </div>
 </body>
 </html>

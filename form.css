@@ -1,0 +1,132 @@
+*,
+*:before,
+*:after{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+/* style body and insert background photo */
+  html,
+  body {
+    background-image: url("LA.jpg");
+    height: 100%;
+    font-family: "Helvetica Neue LT W01_41488878";
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+.header {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    padding: 20px 10%;
+    background: #fdb927;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+  
+.logo {
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+}
+  
+.Navbar a {
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+  
+  .Navbar a:hover,
+  .Navbar a.active {
+    color: aqua;
+}
+/* style for the container */
+.container{
+    background-color: #fdb927;
+    width: 95%;
+    min-width: 400px;
+    padding: 35px 50px;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-radius: 10px;
+    box-shadow: 20px 30px 25px rgba(0, 0, 0, 0.15);
+}
+/* heading inside the container */
+h1{
+    font-size: 30px;
+    text-align: center;
+    color: #1c093c;
+}
+/* paragraph inside the container */
+p{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    color: #606060;
+    font-size: 14px;
+    font-weight: 400;
+}
+/* style for the form */
+form{
+    width: 100%;
+    position: relative;
+    margin: 30px auto 0 auto;
+}
+/* style for the rows */
+.row{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    grid-gap: 20px 30px;
+    margin-bottom: 20px;
+}
+/* style for the label */
+label{
+    color: #1c093c;
+    font-size: 14px;
+}
+/* style for the input text area */
+textarea,
+input{
+    width: 100%;
+    font-weight: 400;
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: 1.2px solid #c4cae0;
+    margin-top: 5px;
+}
+
+textarea{
+    resize: none;
+}
+
+textarea:focus,
+input:focus{
+    outline: none;
+    border-color: #552583;
+}
+/* style for the submit buttom */
+button{
+    border: none;
+    padding: 10px 20px;
+    background: linear-gradient(
+        130deg,
+        #552583,
+        #fdb927
+    );
+    color: #fff;
+    border-radius: 3px;
+}

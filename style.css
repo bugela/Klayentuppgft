@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+/* Media query, change word color */
 @media only screen and (max-width: 500px){
   body {
     background: #552583;
@@ -11,6 +12,7 @@
 
   }
 }
+/* Header with nav bars */
 .header {
   position: fixed;
   top: 0%;
@@ -44,7 +46,7 @@
 .Navbar a.active {
   color: aqua;
 }
-
+/* Headings,Paragraphs,btn box, box icons */
 .home {
   height: 100vh;
   background: url(LA.jpg) no-repeat;
@@ -75,14 +77,14 @@
   font-size: 16px;
   margin: 20px 0 40px;
 }
-
+/* btn box style begin here */
 .home-content .btn-box {
   display: flex;
   justify-content: space-between;
   width: 345px;
   height: 50px;
 }
-
+/* Animation for btn box */
 .btn-box a {
   position: relative;
   display: inline-flex;
@@ -102,24 +104,24 @@
   overflow: hidden;
   transition:  .5s;
 }
-
+/* First btn box hover color on words */
 .btn-box a:hover {
   color: #00abf0;
 }
-
+/* Second btn box defolt color */
 .btn-box a:nth-child(2) {
   background-color: transparent;
   color: #00abf0;
 }
-
+/* Second btn box hover color on words */
 .btn-box a:nth-child(2):hover {
   color: #081b29;
 }
-
+/* Second btn box animation color after the mouse on top */
 .btn-box a:nth-child(2)::before{
   background: #00abf0;
 }
-
+/* First btn box animation color after the mouse on top */
 .btn-box a::before {
   content: '';
   position: absolute;
@@ -135,7 +137,7 @@
 .btn-box a:hover::before {
   width: 100%;
 }
-
+/* box icons */
 .home-sci {
   position: absolute;
   bottom: 40px;
@@ -143,7 +145,7 @@
   display: flex;
   justify-content: space-between;
 }
-
+/* Animation for box icons */
 .home-sci a {
   position: relative;
   display: inline-flex;
@@ -160,7 +162,7 @@
   z-index: 1;
   overflow: hidden;
 }
-
+/* Color changing animation after the mouse on top */
 .home-sci a::before {
   content: '';
   position: absolute;
